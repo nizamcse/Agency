@@ -15,3 +15,8 @@
     display: inline;
     float: none;
 }
+.slide-content {
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+}
