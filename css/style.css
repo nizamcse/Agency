@@ -6,3 +6,7 @@
     float: none;
     display: inline-block;
 }
+.navbar-brand{
+    display: inline;
+    float: none;
+}
