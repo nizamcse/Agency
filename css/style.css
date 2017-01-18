@@ -6,6 +6,11 @@
     float: none;
     display: inline-block;
 }
+
+.slide {
+    height: 80vh;
+    width: 100%;
+}
 .navbar-brand{
     display: inline;
     float: none;
