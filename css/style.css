@@ -92,3 +92,8 @@ small, .font_small {font-size: 0.707em;}
 .text-center{
     text-align: center;
 }
+.form-wraper .form-group .form-control{
+    background-color: transparent;
+    color: #ffffff;
+    border-color: #b49759;
+}
