@@ -185,11 +185,20 @@ small, .font_small {font-size: 0.707em;}
 .button{
     padding: 8px;
 }
-.button .btn-book{
-    border:0;
+.button .btn-book {
+    border: 0;
     border-radius: 0;
     padding: 5px 10px;
     background-color: #761c19;
     color: #fff;
     margin-left: 30px;
+}
+.text-center{
+    text-align: center;
+}
+.form-wraper .form-group .form-control{
+    background-color: transparent;
+    color: #ffffff;
+    border-color: #b49759;
+>>>>>>> dev-bipresh
 }
