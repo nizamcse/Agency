@@ -92,3 +92,63 @@ small, .font_small {font-size: 0.707em;}
     margin: 0 -15px;
     padding: 0 15px;
 }
+.split-img{
+    margin: 0 -15px;
+}
+.split-img img{
+    width:100%;
+}
+.split-content{
+    background-color: #ddd;
+    margin: 0 -15px;
+    overflow: hidden;
+    padding: 0 15px;
+}
+.split-content h4{
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    color:#be8c5f;
+    padding: 5px;
+}
+.split-content p{
+    font-size: 16px;
+    color: #5e5e5e;
+    font-family:'Raleway', sans-serif;
+    padding: 5px;
+}
+.split-content .normal-list{
+    display: block;
+}
+.normal-list li{
+    display: block;
+}
+.normal-list li>a{
+    font-size: 16px;
+    color:#000000;
+    text-decoration: none;
+}
+.split-content .new-icon{
+    display: inline-block;
+}
+.new-icon li{
+    display: inline-block;
+}
+.new-icon li>a{
+    display: block;
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+    float: left;
+    color: #be8c5f;
+}
+.button{
+    padding: 8px;
+}
+.button .btn-book{
+    border:0;
+    border-radius: 0;
+    padding: 5px 10px;
+    background-color: #761c19;
+    color: #fff;
+    margin-left: 30px;
+}
