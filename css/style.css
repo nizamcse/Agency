@@ -91,7 +91,8 @@ small, .font_small {font-size: 0.707em;}
 }
 .a-few-words{
     background-color: #f7f7f7;
-    padding: 10px;
+    padding-top: 90px;
+    padding-bottom: 120px;
 }
 .heading{
     color: #be8c5f;
@@ -125,10 +126,10 @@ small, .font_small {font-size: 0.707em;}
     width:100%;
 }
 .split-content{
-    background-color: #ddd;
     margin: 0 -15px;
     overflow: hidden;
-    padding: 0 15px;
+    padding: 50px 20px;
+    margin-right: 50px;
 }
 .split-content h4{
     font-size: 20px;
@@ -138,7 +139,7 @@ small, .font_small {font-size: 0.707em;}
 }
 .split-content p{
     font-size: 16px;
-    color: #5e5e5e;
+    color: #787070;
     font-family:'Raleway', sans-serif;
     padding: 5px;
 }
@@ -150,7 +151,7 @@ small, .font_small {font-size: 0.707em;}
 }
 .normal-list li>a{
     font-size: 16px;
-    color:#000000;
+    color:#787070;
     text-decoration: none;
 }
 .split-content .new-icon{
@@ -177,4 +178,38 @@ small, .font_small {font-size: 0.707em;}
     background-color: #761c19;
     color: #fff;
     margin-left: 30px;
+}
+.our-room{
+    background-color:#171C30;
+}
+.our-restuarant{
+    padding: 80px 0;
+    background-color: #ededed;
+}
+.d-table{
+    display: table;
+    width:100%;
+    margin:0 auto;
+}
+.d-cell{
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+}
+.reduce-30{
+    width:calc(100% - 30px);
+}
+.content{
+    margin-left: 80px;
+}
+.content-img img{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.full-bg{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.lg-display-none{
+    opacity: 0;
 }
