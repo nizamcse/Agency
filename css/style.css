@@ -2,3 +2,7 @@
     display: inline-block;
     float: none;
 }
+.main-nav>li {
+    float: none;
+    display: inline-block;
+}
