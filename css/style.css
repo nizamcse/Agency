@@ -299,6 +299,9 @@ small, .font_small {font-size: 0.707em;}
     border-radius: 0;
 
 }
+.form-wraper .form-group>.form-control{
+    border-radius: 0px;
+}
 select{
     -webkit-appearance: none;
     -moz-appearance: none;
