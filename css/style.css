@@ -6,3 +6,9 @@
     float: none;
     display: inline-block;
 }
+.slide{
+    height:80vh;
+    width:auto;
+    margin-top: 30px;
+
+}
