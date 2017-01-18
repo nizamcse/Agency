@@ -1,7 +1,7 @@
 html {font-size: 1em;}
 body {
     background-color: white;
-    font-family:'Raleway', sans-serif;
+    font-family:'Raleway', sans-serif,'Lora', serif;
     font-weight: 300;
     line-height: 1.45;
     color: #333;
@@ -56,10 +56,39 @@ small, .font_small {font-size: 0.707em;}
     position: relative;
     transform: translateY(-50%);
     color:red;
-    font-family: 'Raleway', sans-serif;
 }
 .tag-line{
     background-color:rgba(0,0,0,0.5) ;
     color: #fff;
     padding: 10px 15px;
+    /* color:#be8c5f:b49759 */
+}
+.a-few-words{
+    background-color: #f7f7f7;
+    padding: 10px;
+}
+.heading{
+    color: #be8c5f;
+    margin-bottom: 30px;
+    font-size: 16px;
+    padding: 5px;
+}
+.icon-lg{
+    font-size: 80px;
+    color: #be8c5f;
+}
+.icon-widget h4{
+    font-size: 20px;
+    color: #000000;
+    font-family:'Lora', serif;
+}
+.icon-widget p{
+    font-size: 16px;
+    color: #122b40;
+}
+.icon-text-outer-middle{
+    border-left: 1px solid #be8c5f;
+    border-right: 1px solid #be8c5f;
+    margin: 0 -15px;
+    padding: 0 15px;
 }
