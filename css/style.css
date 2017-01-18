@@ -27,16 +27,36 @@ h3 {font-size: 1.999em;}
 h4 {font-size: 1.414em;}
 
 small, .font_small {font-size: 0.707em;}
-.navbar-default{
+.main-navigation{
     margin-bottom: 0;
+    border: 0px;
+    border-radius: 0px;
+    background-color: #fff;
 }
 .display-inline-block{
     display: inline-block;
     float: none;
+    vertical-align: middle;
 }
 .main-nav>li {
     float: none;
     display: inline-block;
+}
+.main-navigation .navbar-nav>li>a{
+    font-family: 'Lora', Serif;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.main-navigation .navbar-nav>li>a:focus,
+.main-navigation .navbar-nav>li>a:hover {
+    color: #b49759;
+    background-color: transparent;
+}
+.main-navigation .navbar-nav>.active>a,
+.main-navigation .navbar-nav>.active>a:focus,
+.main-navigation .navbar-nav>.active>a:hover {
+    color: #b49759;
+    background-color: transparent;
 }
 .slide {
     height: 80vh;
@@ -48,8 +68,14 @@ small, .font_small {font-size: 0.707em;}
     background-position: center;
 }
 .navbar-brand{
-    display: inline;
+    display: block;
     float: none;
+    padding: 5px;
+    margin: 0!important;
+}
+.navbar-brand img{
+    height: 40px;
+    width: auto;
 }
 .slide-content {
     top: 50%;
@@ -91,4 +117,5 @@ small, .font_small {font-size: 0.707em;}
     border-right: 1px solid #be8c5f;
     margin: 0 -15px;
     padding: 0 15px;
+
 }
