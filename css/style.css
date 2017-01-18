@@ -70,8 +70,16 @@ small, .font_small {font-size: 0.707em;}
 }
 .theme-btn{
     background-color: #b49759;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    transition: all .2s ease-in-out;
 }
-
+.theme-btn:hover, .theme-btn:focus{
+    background-color: transparent;
+    border-color: #b49759;
+    color: #b49759;
+}
 
 .slide {
     height: 80vh;
@@ -288,4 +296,22 @@ small, .font_small {font-size: 0.707em;}
     letter-spacing: 2px;
     font-family:'Raleway', sans-serif;
     font-weight: 300;
+    border-radius: 0;
+
+}
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+select option{
+    height: 34px;
+    font-size: 14px;
+    padding: 6px 12px;
+    background-color: #8a6d3b;
+    color: #fff;
+}
+select option:hover{
+    background-color: transparent;
+    color: #8a6d3b;
 }
