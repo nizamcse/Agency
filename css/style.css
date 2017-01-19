@@ -607,3 +607,34 @@ footer{
 .hl-tanmoy-img img{
     width: 100%;
 }
+
+.footer-top{
+    padding: 70px 0;
+    background-color: #dddddd;
+}
+.footer-top-media{
+    margin-top: 50px;
+}
+
+
+.w-80 {
+    width: 80px;
+}
+.h-80{
+    height: 80px;
+}
+.h-menu{
+    list-style: none;
+    padding: 0;
+}
+.h-menu li {
+    display: block;
+    padding: 5px;
+}
+.h-menu li a{
+    text-decoration: none;
+    display: block;
+    font-family: "Lora", serif;
+    letter-spacing: 2px;
+    color: #222222;
+}
