@@ -715,7 +715,6 @@ footer{
     letter-spacing: 4px;
     font-family: 'Lora', serif;
     text-shadow: 1px 2px 1px;
-=======
 }
 
 .footer-top{
@@ -747,5 +746,35 @@ footer{
     font-family: "Lora", serif;
     letter-spacing: 2px;
     color: #222222;
->>>>>>> dev-bipresh
+}
+.c-cake{
+    background-size: cover;
+}
+.digit{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Lora",serif;
+}
+.counter-box{
+    border:1px dashed #777;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.counter-box p{
+    margin-bottom:0;
+}
+.front-h h4{
+    font-family: "Lora",serif;
+    color: rgb(47, 36, 13);
+    letter-spacing: 2px;
+}
+.front-h p{
+    font-family: "Tangerine",cursive;
+    letter-spacing: 3px;
+    font-size: 2em;
+}
+.discount{
+    padding:80px 0;
 }
