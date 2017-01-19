@@ -549,3 +549,116 @@ footer{
     width:100%;
     height:100%;
 }
+
+
+
+.dish{
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+.food-list{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.food-price{
+    text-align: center;
+    border: 1px solid rgb(20, 18, 18);
+    background-color: rgba(14, 15, 35,.7);
+    margin-left: -14px;
+    margin-right: -14px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    padding: 15px;
+}
+.food-price h4{
+    color: rgb(180, 151, 89);
+    letter-spacing: 4px;
+}
+.food-price p{
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+.price-tag{
+    color: rgb(237, 164, 9);
+    font-size: 21px;
+    font-family: 'Lora', serif;
+}
+.heading-food h1{
+    font-family: 'Tangerine', cursive;
+    color: #b49759;
+    letter-spacing: 4px;
+    text-shadow: -2px 2px 0px #000;
+    font-size: 68px;
+    font-weight: bold;
+}
+.border-anim-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    background-color: transparent;
+    border: 1px solid #ededed;
+    transition: all 0.5s ease-in-out;
+    transform: scale(0);
+    width: 100%;
+    height: 100%;
+    transform-origin: left top;
+}
+.border-anim-2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: transparent;
+    border: 1px solid #ededed;
+    width: 100%;
+    height:100%;
+    transition: all 0.5s ease-in-out;
+    transform: scale(0);
+    transform-origin: bottom right;
+}
+.food-price:hover .border-anim-1,
+.food-price:hover .border-anim-2{
+    transform: scale(1);
+}
+.our-team{
+    padding:30px;
+}
+.our-intro{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.our-img img{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    display: block;
+    margin:0 auto;
+}
+.our-intro h2{
+    color: rgb(54, 49, 10);
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 0px;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+.our-intro p{
+    font-family: "Tangerine",cursive;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: rgb(180, 137, 87);
+    font-size: 28px;
+}
+.name{
+    padding: 20px;
+    font-size: 16px;
+    color: rgb(17, 4, 16);
+    letter-spacing: 4px;
+    font-family: 'Lora', serif;
+    text-shadow: 1px 2px 1px;
+}
