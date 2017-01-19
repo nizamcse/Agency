@@ -747,5 +747,50 @@ footer{
     font-family: "Lora", serif;
     letter-spacing: 2px;
     color: #222222;
->>>>>>> dev-bipresh
+}
+.featured-products{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.featured-bonus {
+    border: 1px dashed #777;
+    padding: 15px;
+    text-align: center;
+}
+.featured-bonus p{
+    margin-bottom: 5px;
+    font-family: "Lora", serif;
+    letter-spacing: 2px;
+}
+.featured-bonus h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #b49759;
+    font-family: "Lora", serif;
+    font-size: 22px;
+}
+.heading-container{
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.special-card-img img{
+    width: 100%;
+}
+.special-card-content{
+    background-color: #ddd;
+    padding: 15px;
+    overflow: hidden;
+}
+.special-card-content-leff h4{
+    margin-top: 0px;
+}
+.special-card-content-left{
+    float: left;
+}
+.special-card-content-right{
+    float: right;
 }
