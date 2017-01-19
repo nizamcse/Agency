@@ -512,6 +512,40 @@ footer{
     width: 100%;
     height: 100%;
 }
-.feature{
+.feature {
     padding-bottom: 90px;
+}
+.blog-2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+}
+.blog-slide-content h3{
+    color: #be8c5f;
+    letter-spacing: 8px;
+    text-shadow: 2px 2px 0px #020223;
+}
+.blog-slide-content p{
+    color: #211f30;
+    padding: 10px 0;
+}
+.btn-transparent{
+    border-radius: 0;
+    background-color: rgba(56, 25, 53, 0);
+    border: 1px solid #b89759;
+    color: #222;
+    padding: 7px 14px;
+    letter-spacing: 7px;
+}
+.blog-2::before{
+    content: '';
+    top: 0;
+    left: 0;
+    background-color: rgba(255,255,255,0.2);
+    position: absolute;
+    width:100%;
+    height:100%;
 }
