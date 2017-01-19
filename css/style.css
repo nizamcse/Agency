@@ -289,3 +289,17 @@ small, .font_small {font-size: 0.707em;}
     font-family:'Raleway', sans-serif;
     font-weight: 300;
 }
+.cost{
+    margin-top: 30px;
+}
+.our-restuarant-blog{
+    background-color: #9d9d9d;
+    padding: 15px;
+    margin-top: 30px;
+}
+.content-middle{
+    float: left;
+}
+.content-img-middle{
+    float: right;
+}
