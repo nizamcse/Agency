@@ -751,6 +751,7 @@ footer{
 .featured-products{
     padding-top: 70px;
     padding-bottom: 70px;
+    background-color: #d2cec7;
 }
 .featured-bonus {
     border: 1px dashed #777;
@@ -785,12 +786,6 @@ footer{
     padding: 15px;
     overflow: hidden;
 }
-.special-card-content-leff h4{
-    margin-top: 0px;
-}
-.special-card-content-left{
-    float: left;
-}
-.special-card-content-right{
-    float: right;
+.special-card-content-left h4{
+    margin-top: 0;
 }
