@@ -789,3 +789,39 @@ footer{
 .special-card-content-left h4{
     margin-top: 0;
 }
+.testimonial-01{
+    padding:80px 0;
+}
+.testimonial-01-media {
+    padding: 25px;
+    border: 1px solid #a73434;
+}
+.testimonial-01-media .media-body{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.testimonial-01-media .media-left{
+    font-size: 40px;
+    color: #b49759;
+}
+.testimonial-01-media p{
+    font-family: "Lora", serif;
+    color: #333333;
+    text-align: justify;
+}
+.testimonial-01-media h5{
+    font-family: 'Raleway', sans-serif;
+}
+
+.testimonial-02-content .media-left img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.testimonial-02-content .media{
+    background-color: #ddd;
+    padding: 15px 15px 10px 15px;
+}
+.testimonial-02-content .testimonial-02-text{
+    padding: 15px;
+}
