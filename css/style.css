@@ -894,3 +894,48 @@ footer{
 .testimonial-02-content .testimonial-02-text{
     padding: 15px;
 }
+
+
+
+
+
+
+
+.product-cost{
+    padding: 15px;
+   background-color: #fafafa;
+}
+.product-offer {
+    padding: 15px;
+}
+.image{
+    margin-bottom: 20px;
+}
+.b-img{
+    max-width: 200px;
+}
+.media-content .media-heading{
+    margin-top: 30px;
+    padding: 10px;
+    color: #35534A;
+    font-family:'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+.media-content p{
+    padding-left: 20px;
+}
+.image .media-left{
+    width:50%;
+}
+.image-media{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: all 450ms ease-in-out;
+}
+.image-media:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.bg-full{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
