@@ -715,7 +715,6 @@ footer{
     letter-spacing: 4px;
     font-family: 'Lora', serif;
     text-shadow: 1px 2px 1px;
-=======
 }
 
 .footer-top{
@@ -822,6 +821,83 @@ footer{
     background-color: #ddd;
     padding: 15px 15px 10px 15px;
 }
-.testimonial-02-content .testimonial-02-text{
+.testimonial-02-content .testimonial-02-text {
     padding: 15px;
+}
+
+.featured-work{
+    background-color: #f5f5f5;
+}
+.featured-work-img img{
+    width: 100%;
+}
+.hr-01 {
+    border: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #b92828;
+    margin-left: 0;
+}
+.no-padding-left-right{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.position--absolute{
+    position: absolute;
+}
+.right-0{
+    right: 0;
+}
+.left-0{
+    left: 0;
+}
+.top-0{
+    top:0;
+}
+.bottom-0{
+    bottom: 0;
+}
+.margin-right-15{
+    margin-right: 15px;
+}
+.italic-pp{
+    color: #2b542c;
+    font-style: italic;
+    font-weight: bold;
+}
+.coupon{
+    padding: 15px 15px;
+}
+.coupon-inner{
+    min-height: 350px;
+    width: 100%;
+    position: relative;
+    background-color: rgba(255,255,255,.3);
+    border: 2px dashed #FFFFFF;
+}
+.turn-middle{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+}
+.center{
+    margin: 0 auto;
+}
+.hr-w-100{
+    width: 100px;
+    border: 0;
+    height: 2px;
+    background-color: #b92828;
+}
+.subscribe-form .form-control{
+    border-radius: 0;
+    height: 46px;
+    box-shadow: none;
+    border: 1px dashed #777;
+}
+.form-special{
+    margin-top: 80px;
 }
