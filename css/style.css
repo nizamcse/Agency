@@ -1063,3 +1063,54 @@ footer{
     margin-top: 80px;
 >>>>>>> dev-bipresh
 }
+.team-card{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.team-card figure{
+    position: relative;
+    overflow: hidden;
+}
+.team-card figure img{
+    width: 100%;
+    height: auto;
+}
+
+.team-card figure .fig-caption{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 100%;
+    padding: 15px;
+    background-color: rgba(0,0,0,0.5);
+    color: #FFFFFF;
+    transition: all .5s ease-in-out;
+}
+.team-card:hover figure .fig-caption{
+    left: 0;
+}
+.team-card figure .fig-caption .team-social-icons{}
+.team-card figure .fig-caption .team-social-icons ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+}
+.team-card figure .fig-caption .team-social-icons ul li{
+    display: inline-block;
+    float: left;
+}
+.team-card figure .fig-caption .team-social-icons ul li a{
+    display: block;
+}
+.team-card .team-member-designation{
+    padding: 30px 15px;
+    background-color: #f7f7f7;
+    text-shadow: 1px 1px 3px;
+    letter-spacing: 1px;
+    font-family: 'Lora', Serif;
+}
+.text-light-gray{
+    margin-left: 15px;
+    letter-spacing: 2px;
+}
